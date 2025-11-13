@@ -1,0 +1,679 @@
+@font-face {
+  font-family: 'OngleipParkDahyeon';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_ParkDaHyun.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KccSign';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
+  font-weight: normal;
+  font-display: swap;
+}
+
+
+body, ul, li, span, p {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+html, body {
+  overflow-x: hidden;
+  font-family: 'Pretendard';
+}
+
+/* 메인 */
+.sec-1 {
+  background-color: #94C1DD;
+  padding: 60px 0 40px;
+}
+
+.sec-1 .calender {
+  position: relative;
+  width: 1580px;
+  margin: 0 auto;
+}
+
+.sec-1 .calender > img:nth-child(1) {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1440px;
+  z-index: 3;
+}
+
+.sec-1 .calender > img:nth-child(2) {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+
+.sec-1 .calender > img:nth-child(3) {
+  position: absolute;
+  top: 20px;
+  left: 29px;
+  width: 1580px;
+  z-index: 1;
+}
+
+.sec-1 .stick-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 4;
+}
+
+.sec-1 .stick-wrap > a:nth-child(1) {
+  position: absolute;
+  display: block;
+  width: 1000px;
+  top: 332px;
+  left: 288px;
+  z-index: 8;
+}
+
+.sec-1 .stick-wrap > a:nth-child(1) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(1) > img:nth-child(2) {
+  position: absolute;
+  top: 250px;
+  left: 874px;
+  display: block;
+  width: 124px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(2) {
+  position: absolute;
+  display: block;
+  width: 140px;
+  top: 170px;
+  left: 1030px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(2) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(3) {
+  position: absolute;
+  display: block;
+  width: 194px;
+  top: 200px;
+  left: 326px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(3) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(4) {
+  position: absolute;
+  display: block;
+  width: 188px;
+  top: 650px;
+  left: 1040px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(4) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(5) {
+  position: absolute;
+  display: block;
+  width: 250px;
+  top: 250px;
+  left: 1206px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(5) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(6) {
+  position: absolute;
+  display: block;
+  width: 63px;
+  top: 690px;
+  left: 218px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(6) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(7) {
+  position: absolute;
+  display: block;
+  width: 56px;
+  top: 216px;
+  left: 1190px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(7) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(8) {
+  position: absolute;
+  display: block;
+  width: 180px;
+  top: 500px;
+  left: 213px;
+  z-index: 9;
+}
+
+.sec-1 .stick-wrap > a:nth-child(8) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(9) {
+  position: absolute;
+  display: block;
+  width: 71px;
+  top: 580px;
+  left: 680px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(9) > img {
+  width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(10) {
+  position: absolute;
+  display: block;
+  width: 57px;
+  top: 128px;
+  left: 1316px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(10) > img {
+  width: 100%;
+}
+/* 메인 끝 */
+
+/* 프로필 시작 */
+.sec-2 {
+  padding: 60px 0 77px;
+}
+
+.sec-2 .calender {
+  position: relative;
+  width: 1580px;
+  margin: 0 auto;
+}
+
+.sec-2 .calender > img:nth-child(1) {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1440px;
+  z-index: 3;
+}
+
+.sec-2 .calender > img:nth-child(2) {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+
+.sec-2 .calender > img:nth-child(3) {
+  position: absolute;
+  top: 20px;
+  left: 29px;
+  width: 1580px;
+  z-index: 1;
+}
+
+.sec-2 .calender .profile-left {
+  position: absolute;
+  top: 85px;
+  left: -12px;
+  z-index: 4;
+}
+
+.sec-2 .calender .profile-left .photo {
+  width: 418px;
+}
+
+.sec-2 .calender .profile-left .photo > img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sec-2 .calender .profile-left .p-info {
+  position: absolute;
+  top: 538px;
+  left: 74px;
+}
+
+.sec-2 .calender .profile-left .p-info > .name {
+  font-family: 'OngleipParkDahyeon';
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.sec-2 .calender .profile-left .p-info > .name > .p-name {
+  font-size: 50px;
+  color: #00143D;
+}
+
+.sec-2 .calender .profile-left .p-info > .name > .sub {
+  font-size: 20px;
+  color: #45546B;
+}
+
+.sec-2 .calender .profile-left .p-info > .eng {
+  font-family: 'OngleipParkDahyeon';
+  font-size: 20px;
+  color: #00143D
+}
+
+.sec-2 .calender .profile-left .p-info > .text {
+  margin-top: 24px;
+}
+
+.sec-2 .calender .profile-left .p-info .icon {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin-top: 14px;
+}
+
+.sec-2 .calender .profile-left .p-info .icon img {
+  display: block;
+  width: 25px;
+}
+
+.sec-2 .calender .profile-left .p-info .icon p {
+  color: #45546B;
+  font-size: 20px;
+}
+
+.sec-2 .calender .profile-center {
+  position: absolute;
+  top: 152px;
+  left: 530px;
+  z-index: 5;
+}
+
+.sec-2 .calender .profile-center > .c-img {
+  width: 506px;
+}
+
+.sec-2 .calender .profile-center > .c-img > img:nth-child(1) {
+  width: 100%;
+}
+
+.sec-2 .calender .profile-center > .c-img > img:nth-child(2) {
+  position: absolute;
+  top: -30px;
+  left: 230px;
+  display: block;
+  width: 37px;
+}
+
+.sec-2 .calender .profile-center > .info-box {
+  position: absolute;
+  top: 43px;
+  left: 43px;
+  white-space: nowrap;
+}
+
+.sec-2 .calender .profile-center > .info-box > .main {
+  font-family: 'KccSign'; 
+  font-size: 22px;
+  color: #012675;
+  margin-bottom: 18px;
+}
+
+.sec-2 .calender .profile-center > .info-box .info-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+  margin-bottom: 8px;
+}
+
+.sec-2 .calender .profile-center > .info-box .info-row .info-date {
+  font-family: 'Pretendard';
+  font-size: 12px;
+  font-weight: 300;
+  color: #45546B;
+}
+
+.sec-2 .calender .profile-center > .info-box .info-row .info-text {
+  font-size: 14px;
+  color: #363D48;
+}
+
+.sec-2 .calender .profile-center > .info-box .info-row .small {
+  font-size: 8px;
+  margin-left: 4px;
+  color: #45546B;
+}
+
+.sec-2 .calender .profile-center > .info-2 {
+  top: 218px;
+}
+
+.sec-2 .calender .profile-center > .info-2 > .info-row .info-date {
+  margin-right: 60px;
+}
+
+.sec-2 .calender .profile-center > .info-3 {
+  top: 456px;
+}
+
+.sec-2 .calender .profile-center > .info-3 > .tag-wrap {
+  margin-top: 26px;
+}
+
+.sec-2 .calender .profile-center > .info-3 > .tag-wrap > .top {
+  margin-bottom: 20px;
+}
+
+.sec-2 .calender .profile-center > .info-3 > .tag-wrap span {
+  padding: 4px 14px;
+  border: 1px solid #055AA8;
+  border-radius: 50px;
+}
+
+.sec-2 .calender .profile-center > .info-3 > .tag-wrap span a {
+  color: #45546B;
+}
+
+.sec-2 .calender .profile-right {
+  position: absolute;
+  top: 152px;
+  left: 1093px;
+  z-index: 5;
+}
+
+.sec-2 .calender .profile-right .r-img {
+  width: 443px;
+}
+
+.sec-2 .calender .profile-right .r-img > img {
+  display: block;
+  width: 100%;
+}
+
+.sec-2 .calender .profile-right .r-img > img:nth-child(2) {
+  position: absolute;
+  top: -20px;
+  left: 212px;
+  display: block;
+  width: 53px;
+}
+
+.sec-2 .calender .profile-right .info-box {
+  position: absolute;
+  top: 56px;
+  left: 43px;
+  white-space: nowrap;
+}
+
+.sec-2 .calender .profile-right .info-1 > .main {
+  font-family: 'KccSign'; 
+  font-size: 22px;
+  color: #012675;
+  margin-bottom: 18px;
+}
+
+.sec-2 .calender .profile-right .info-1 .info-row {
+  display: flex;
+  align-items: baseline;
+  gap: 75px;
+  margin-bottom: 8px;
+}
+
+.sec-2 .calender .profile-right .info-1 .info-row .info-date {
+  font-size: 12px;
+  color: #45546B;
+}
+
+.sec-2 .calender .profile-right .info-1 .info-row .info-text {
+  display: flex;
+  gap: 6px;
+  font-size: 14px;
+  color: #363D48;
+}
+
+.sec-2 .calender .profile-right .info-1 .info-row .info-text .sub {
+  color: #012675;
+}
+
+.sec-2 .calender .profile-right .info-2 {
+  top: 250px;
+}
+
+.sec-2 .calender .profile-right .info-2 > .main {
+  font-family: 'KccSign'; 
+  font-size: 22px;
+  color: #012675;
+  margin-bottom: 18px;
+}
+
+.sec-2 .calender .profile-right .info-2 .info-row {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+
+.sec-2 .calender .profile-right .info-2 .info-row .info-date {
+  font-size: 12px;
+  color: #45546B;
+}
+
+.sec-2 .calender .profile-right .info-2 .info-row .info-text {
+  font-size: 14px;
+  color: #363D48;
+}
+
+.sec-2 .calender .r-icon {
+  position: absolute;
+  width: 288px;
+  top: 692px;
+  left: 1340px;
+  z-index: 8;
+}
+
+.sec-2 .calender .r-icon img {
+  width: 100%;
+  display: block;
+}
+
+/* 프로필 끝 */
+
+/* 목차 시작 */
+.sec-3 {
+  padding: 60px 0 77px;
+}
+
+.sec-3 .calender {
+  position: relative;
+  width: 1580px;
+  margin: 0 auto;
+}
+
+.sec-3 .calender > img:nth-child(1) {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1440px;
+  z-index: 3;
+}
+
+.sec-3 .calender > img:nth-child(2) {
+  position: relative;
+  display: block;
+  width: 100%;
+  z-index: 2;
+}
+
+.sec-3 .calender > img:nth-child(3) {
+  position: absolute;
+  top: 20px;
+  left: 29px;
+  width: 1580px;
+  z-index: 1;
+}
+
+.sec-3 .calender .con-logo {
+  position: absolute;
+  top: 115px;
+  left: 87px;
+  width: 423px;
+  z-index: 4;
+}
+
+.sec-3 .calender .con-logo img {
+  display: block;
+  width: 100%;
+}
+
+.sec-3 .calender .con-logo img:nth-child(2) {
+  position: absolute;
+  top: -20px;
+  left: 410px;
+  display: block;
+  width: 32px;
+}
+
+.sec-3 .calender .con-info .top {
+  position: absolute;
+  top: 284px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.sec-3 .calender .con-info .top .top-info {
+  display: flex;
+  gap: 99px;
+}
+
+.sec-3 .calender .con-info .top .web > .img {
+  display: flex;
+  gap: 99px;
+}
+
+.sec-3 .calender .con-info .top img {
+  display: block;
+  width: 267px;
+}
+
+.sec-3 .calender .con-info .top .tit {
+  font-family: 'KccSign';
+  font-size: 20px;
+  color: #4B5760;
+  margin-bottom: 14px;
+}
+
+.sec-3 .calender .con-info .top .sub {
+  font-size: 13px;
+  color: #798289;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+
+
+.sec-3 .calender .con-info .bottom .redesign {
+  position: absolute;
+  top: 556px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 5;
+}
+
+.sec-3 .calender .con-info .bottom .img {
+  display: flex;
+  gap: 99px;
+}
+
+.sec-3 .calender .con-info .bottom img {
+  display: block;
+  width: 267px;
+}
+
+.sec-3 .calender .con-info .bottom .tit {
+  font-family: 'KccSign';
+  font-size: 20px;
+  color: #4B5760;
+  margin-bottom: 14px;
+}
+
+.sec-3 .calender .con-info .bottom .sub {
+  font-size: 13px;
+  color: #798289;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+/* .sec-3 .calender .con-info img {
+  opacity: 0.4;
+}
+.web .img .img-1 img {
+  opacity: 1;
+} */
+
+
+.sec-3 .calender .con-info .img div {
+  position: relative;
+  overflow: hidden;
+}
+
+.sec-3 .calender .con-info .img div:hover img {
+  transform: scale(1.05);
+}
+
+.sec-3 .calender .con-info .img div::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0); /* 기본 투명 */
+  transition: .3s ease;
+}
+
+/* .sec-3 .calender .con-info .img div:hover::after {
+  background: rgba(0,0,0,0.55);
+} */
