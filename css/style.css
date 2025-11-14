@@ -686,3 +686,21 @@ html, body {
 .sec-3 .calender .con-info .img > div:hover img {
   filter: brightness(30%);
 }
+
+/* 가치그린 */
+.branding-d > img,
+.branding-p > img {
+  width: 1920px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* 이솝 */
+.aesop-d > img,
+.aesop-p > img {
+  width: 1920px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
