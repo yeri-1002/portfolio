@@ -615,8 +615,6 @@ html, body {
   margin-left: 2px;
 }
 
-
-
 .sec-3 .calender .con-info .bottom .redesign {
   position: absolute;
   top: 556px;
@@ -649,31 +647,10 @@ html, body {
   margin-left: 2px;
 }
 
-/* .sec-3 .calender .con-info img {
-  opacity: 0.4;
-}
-.web .img .img-1 img {
-  opacity: 1;
-} */
-
-
-.sec-3 .calender .con-info .img div {
-  position: relative;
-  overflow: hidden;
+.sec-3 .calender .con-info .img > div img {
+  transition: .4s;
 }
 
-.sec-3 .calender .con-info .img div:hover img {
-  transform: scale(1.05);
+.sec-3 .calender .con-info .img > div:hover img {
+  filter: brightness(30%);
 }
-
-.sec-3 .calender .con-info .img div::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0); /* 기본 투명 */
-  transition: .3s ease;
-}
-
-/* .sec-3 .calender .con-info .img div:hover::after {
-  background: rgba(0,0,0,0.55);
-} */
