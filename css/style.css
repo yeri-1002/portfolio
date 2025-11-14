@@ -647,6 +647,38 @@ html, body {
   margin-left: 2px;
 }
 
+.sec-3 .calender .con-info .img > div {
+  position: relative;
+}
+
+.hover-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+  display: flex;
+  gap: 13px;
+  font-size: 16px;
+  font-family: 'Pretendard';
+  font-weight: 400;
+  color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: .4s;
+  z-index: 10;
+  white-space: nowrap;
+}
+
+.hover-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sec-3 .calender .con-info .img > div:hover .hover-menu {
+  opacity: 1;
+  pointer-events: auto;
+}
+
 .sec-3 .calender .con-info .img > div img {
   transition: .4s;
 }
