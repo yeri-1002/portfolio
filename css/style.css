@@ -52,7 +52,7 @@ html, body {
 
 /* 스크롤바 커스텀 시작 */
 body::-webkit-scrollbar {
-  width: 4px;
+  width: 5px;
   height: 0;
 }
 
@@ -242,6 +242,18 @@ body::-webkit-scrollbar-track {
 .sec-1 .stick-wrap > a:nth-child(10) > img {
   width: 100%;
 }
+
+.sec-1 .stick-wrap > a:nth-child(11) {
+  position: absolute;
+  display: block;
+  width: 96px;
+  top: 820px;
+  left: 1424px;
+}
+
+.sec-1 .stick-wrap > a:nth-child(11) > img {
+  width: 100%;
+}
 /* 메인 끝 */
 
 /* 프로필 시작 */
@@ -278,6 +290,20 @@ body::-webkit-scrollbar-track {
   width: 1580px;
   z-index: 1;
 }
+
+.sec-2 .calender > .home-icon {
+  position: absolute;
+  top: 67px;
+  right: 62px;
+  z-index: 20;
+}
+
+.sec-2 .calender > .home-icon img {
+  display: block;
+  width: 34px;
+}
+
+
 
 .sec-2 .calender .profile-left {
   position: absolute;
@@ -596,6 +622,18 @@ body::-webkit-scrollbar-track {
   left: 410px;
   display: block;
   width: 32px;
+}
+
+.sec-3 .calender .home-icon {
+  position: absolute;
+  bottom: 70px;
+  right: 64px;
+  z-index: 20;
+}
+
+.sec-3 .calender .home-icon img {
+  display: block;
+  width: 34px;
 }
 
 .sec-3 .calender .con-info .top {
