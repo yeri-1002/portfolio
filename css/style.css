@@ -672,6 +672,11 @@ html, body {
 .hover-menu a {
   color: #fff;
   text-decoration: none;
+  opacity: .5;
+}
+
+.hover-menu a:hover {
+  opacity: 1;
 }
 
 .sec-3 .calender .con-info .img > div:hover .hover-menu {
@@ -684,7 +689,7 @@ html, body {
 }
 
 .sec-3 .calender .con-info .img > div:hover img {
-  filter: brightness(30%);
+  filter: brightness(36%);
 }
 
 /* 가치그린 */
