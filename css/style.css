@@ -710,8 +710,18 @@ html, body {
   cursor: pointer;
 }
 
-/* 휠라 */
-.fila-p > img {
+/* 탬버린즈 */
+.tam-d > img,
+.tam-p > img {
+  width: 1920px;
+  margin: 0 auto;
+  display: block;
+  cursor: pointer;
+}
+
+/* 휠라 + 무인양품 */
+.fila-p > img,
+.muji-p > img {
   width: 1920px;
   margin: 0 auto;
   display: block;
