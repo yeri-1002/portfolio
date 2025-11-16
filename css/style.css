@@ -50,6 +50,26 @@ html, body {
   font-family: 'Pretendard';
 }
 
+/* 스크롤바 커스텀 시작 */
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 0;
+}
+
+body::-webkit-scrollbar-thumb {
+  height: 15%;
+  background-color: #055AA8;
+  border-radius: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #F8F8F8;
+}
+.swiper-horizontal {
+  touch-action: auto;
+}
+/* 스크롤바 커스텀 끝 */
+
 /* 메인 */
 .sec-1 {
   background-color: #94C1DD;
