@@ -27,6 +27,13 @@
 }
 
 @font-face {
+  font-family: 'Pretendard';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/pretendard@1.0/Pretendard-Medium.woff2') format('woff2');
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
   font-family: 'KccSign';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/KCC-Ganpan.woff2') format('woff2');
   font-weight: normal;
@@ -532,7 +539,8 @@ body::-webkit-scrollbar-track {
   color: #363D48;
 }
 
-.sec-2 .calender .profile-right .info-1 .info-row .info-text .sub {
+.sec-2 .calender .profile-right .info-1 .info-row .info-text > .sub {
+  font-weight: 600;
   color: #012675;
 }
 
