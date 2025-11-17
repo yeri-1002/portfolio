@@ -140,10 +140,15 @@ body::-webkit-scrollbar-track {
   width: 140px;
   top: 170px;
   left: 1030px;
+  transition: transform .3s;
 }
 
 .sec-1 .stick-wrap > a:nth-child(2) > img {
   width: 100%;
+}
+
+.sec-1 .stick-wrap > a:nth-child(2):hover {
+  transform: scale(1.05) translateY(-6px);
 }
 
 .sec-1 .stick-wrap > a:nth-child(3) {
