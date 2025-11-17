@@ -258,6 +258,11 @@ body::-webkit-scrollbar-track {
 
 .sec-1 .stick-wrap > a:nth-child(11) > img {
   width: 100%;
+  transition: transform .3s;
+}
+
+.sec-1 .stick-wrap > a:nth-child(11):hover img {
+  transform: translateX(6px);
 }
 /* 메인 끝 */
 
