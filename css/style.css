@@ -323,7 +323,7 @@ body::-webkit-scrollbar-track {
 }
 
 .sec-2 .calender .profile-left .photo {
-  width: 418px;
+  width: 380px;
 }
 
 .sec-2 .calender .profile-left .photo > img {
@@ -341,8 +341,9 @@ body::-webkit-scrollbar-track {
 .sec-2 .calender .profile-left .p-info > .name {
   font-family: 'OngleipParkDahyeon';
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
+  white-space: nowrap;
 }
 
 .sec-2 .calender .profile-left .p-info > .name > .p-name {
@@ -351,7 +352,7 @@ body::-webkit-scrollbar-track {
 }
 
 .sec-2 .calender .profile-left .p-info > .name > .sub {
-  font-size: 20px;
+  font-size: 16px;
   color: #45546B;
 }
 
