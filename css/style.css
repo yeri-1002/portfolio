@@ -586,6 +586,11 @@ body::-webkit-scrollbar-track {
   left: -180px;
   display: block;
   width: 200px;
+  transition: transform .3s;
+}
+
+.sec-2 .calender .r-icon > a > img:hover {
+  transform: scale(1.03)
 }
 
 .sec-2 .calender .r-icon img {
